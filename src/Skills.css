@@ -1,0 +1,21 @@
+.wizardSkills{
+    border:solid red 1px;
+    background-color: aquamarine;
+}
+.skillList{
+    display:grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    border: solid red 1px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: lightblue;
+    list-style: none;
+    justify-content:center ;
+}
+.skillItem{
+    color:green;
+    padding:5px;
+    margin:5px;
+    border:solid red 1px;
+    width:fit-content;
+}
