@@ -40,8 +40,10 @@
     background-color: lightblue;
     box-shadow: 5px 5px 35px black;
     cursor:pointer;
+    transition: 700ms;
 }
 .navItem:hover{
     color:chartreuse;
     background-color: blue;
+    font-size: 20px;
 }

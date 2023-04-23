@@ -13,5 +13,29 @@
 }
 .wizText{
     grid-column:2;
-    border:solid red 1px;
+    display:grid;
+    grid-template-rows: 10% 90%;
+}
+.aboutMe{
+    grid-row:1;
+    text-decoration: underline;
+    padding: 5px;
+    border-radius: 15px;
+    margin:0  auto;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right:25px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 45px;
+    background-color: rgb(69, 169, 136);
+}
+.aboutmeP{
+    padding: 30px;
+    text-indent: 25px;
+    width: 500px;
+    margin-left: 250px;;
+}
+.Names{
+    color:rgb(188, 69, 221);
+    text-decoration:underline;
 }
