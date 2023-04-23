@@ -1,5 +1,17 @@
+.aboutMeContainer{
+    border: solid red 1px;
+    display:grid;
+    grid-template-columns: 40% 60%;
+}
+
 .wizImage{
+    grid-column: 1;
     height: 500px;
     border:solid chartreuse 2px;
     border-radius: 15px;;
+    margin: 20px;
+}
+.wizText{
+    grid-column:2;
+    border:solid red 1px;
 }
