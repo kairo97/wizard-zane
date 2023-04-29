@@ -1,8 +1,14 @@
 
 import "./Header.css"
 
-function Header() {
-
+function Header(isOpenSkills, setOpenSkills) {
+    const wizardSkill = () => {
+        if (isOpenSkills === 0){
+            setOpenSkills(1)
+     } else {
+            setOpenSkills(0)
+        }
+    }
 
     return(
         <div className="headerContainer">
@@ -13,7 +19,7 @@ function Header() {
             <div className="navbar">
                 <ul className="navmenu">
                     <li className="navItem">About Me</li>
-                    <li className="navItem">Wizard Skills</li>
+                    <li className="navItem" onClick={wizardSkill()}>Wizard Skills</li>
                     <li className="navItem">Bookings</li>
                 </ul>
             </div>
